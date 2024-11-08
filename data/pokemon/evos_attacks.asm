@@ -2710,7 +2710,8 @@ SlowkingEvosAttacks:
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
-	db 0 ; no more evolutions
+	db 0 EVOLVE_LEVEL, 20, MISMAGIUS
+        db 0 ; no more evolutions
 	db 1, LICK
 	db 1, PSYWAVE
 	db 1, SPITE
@@ -2722,7 +2723,6 @@ MisdreavusEvosAttacks:
 	db 36, PAIN_SPLIT
 	db 46, PERISH_SONG
 	db 0 ; no more level-up moves
-
 UnownEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HIDDEN_POWER
@@ -3381,3 +3381,21 @@ CelebiEvosAttacks:
 	db 40, BATON_PASS
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
+
+MismagiusEvosAttacks:
+        db 0 ; no more evolutions
+        db 1, LICK
+	db 1, PSYWAVE
+	db 1, SPITE
+	db 1, CONFUSE_RAY
+        db 6, CURSE
+        db 12, HYPNOSIS
+	db 19, NIGHTMARE
+        db 22, SHADOW_BALL
+        db 26, DREAM_EATER
+        db 30, PSYCHIC_M
+        db 36, PAIN_SPLIT
+        db 40, SACRED_FIRE
+        db 46, PERISH_SONG
+        db 50, DESTINY_BOND
+        db 0 ; no more level-up moves
