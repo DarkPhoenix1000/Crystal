@@ -2152,7 +2152,7 @@ TyphlosionEvosAttacks:
 	db 32, FIRE_PUNCH
         db 34, FLAMETHROWER
 	db 36, FIRE_BLAST
-        db_38, FLAME_WHEEL
+        db 38, FLAME_WHEEL
 	db 40, SACRED_FIRE
 	db 0 ; no more level-up moves
 
@@ -2710,7 +2710,7 @@ SlowkingEvosAttacks:
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
-	db 0 EVOLVE_LEVEL, 20, MISMAGIUS
+	db EVOLVE_LEVEL, 20, MISMAGIUS
         db 0 ; no more evolutions
 	db 1, LICK
 	db 1, PSYWAVE
