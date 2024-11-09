@@ -251,5 +251,5 @@ AnimationIdlePointers:
 	dw LugiaAnimationIdle
 	dw HoOhAnimationIdle
 	dw CelebiAnimationIdle
-        dw MismagiusAmimationIdle
+        dw MismagiusAnimationIdle
 	assert_table_length NUM_POKEMON
