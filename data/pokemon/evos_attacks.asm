@@ -1283,7 +1283,7 @@ OnixEvosAttacks:
 	db 1, SCREECH
 	db 10, BIND
 	db 14, ROCK_THROW
-        db 21, ANCIENT_POWER
+        db 21, ANCIENTPOWER
 	db 23, HARDEN
 	db 27, RAGE
 	db 36, SANDSTORM
@@ -1769,7 +1769,7 @@ GyaradosEvosAttacks:
 	db 20, BITE
 	db 25, DRAGON_RAGE
 	db 30, LEER
-	db 35, DRAGON_BREATH
+	db 35, DRAGONBREATH
 	db 40, HYDRO_PUMP
 	db 42, RAIN_DANCE
 	db 45, HYPER_BEAM
@@ -2178,7 +2178,7 @@ CroconawEvosAttacks:
 	db 1, RAGE
 	db 7, RAGE
 	db 13, WATER_GUN
-        db 18, BUBLLE_BEAM
+        db 18, BUBBLEBEAM
 	db 21, BITE
 	db 28, SCARY_FACE
         db 30, RAIN_DANCE
@@ -2392,7 +2392,7 @@ IgglybuffEvosAttacks:
 TogepiEvosAttacks:
 	db EVOLVE_LEVEL, 20, TR_ANYTIME, TOGETIC
 	db 0 ; no more evolutions
-	db 1, DOUBLE_SLAP
+	db 1, DOUBLESLAP
 	db 1, CHARM
 	db 7, METRONOME
 	db 18, SWEET_KISS
@@ -2807,7 +2807,7 @@ SteelixEvosAttacks:
 	db 1, SCREECH
 	db 10, BIND
 	db 14, ROCK_THROW
-        db 20, ANCIENT_POWER
+        db 20, ANCIENTPOWER
 	db 23, DIG
         db 25, IRON_TAIL
 	db 27, EARTHQUAKE
