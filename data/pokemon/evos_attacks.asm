@@ -1799,8 +1799,8 @@ EeveeEvosAttacks:
 	db EVOLVE_ITEM, THUNDERSTONE, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, VAPOREON
 	db EVOLVE_ITEM, FIRE_STONE, FLAREON
-	db EVOLVE_LEVEL, TR_MORNDAY, ESPEON
-	db EVOLVE_HAPPINESS, TR_NITE, UMBREON
+	db EVOLVE_LEVEL, 15, TR_MORNDAY, ESPEON
+	db EVOLVE_LEVEL, 15, TR_NITE, UMBREON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
@@ -2063,7 +2063,7 @@ ChikoritaEvosAttacks:
 	db EVOLVE_LEVEL, 16, BAYLEEF
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
-	db 1, GROWL
+	db 1, TACKLE
         db 1, ABSORB
         db 1, SPORE
 	db 8, RAZOR_LEAF
@@ -2161,6 +2161,7 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
+        db 1, BUBBLE
 	db 7, RAGE
 	db 13, WATER_GUN
 	db 20, BITE
