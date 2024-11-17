@@ -165,16 +165,16 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_40
 	db 6 percent ; encounter rate
-	db 20, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACRUEL
+	db 20, DRATINI
+	db 15, HORSEA
+	db 20, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_41
 	db 6 percent ; encounter rate
-	db 20, TENTACOOL
-	db 20, TENTACRUEL
-	db 20, MANTINE
+	db 20, DRATINI
+	db 20, LAPRAS
+	db 20, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_42
